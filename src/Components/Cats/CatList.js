@@ -3,11 +3,9 @@ import React from 'react';
 const CatList = (props) => {
  return (
    <div>
-     {props.cats.Map(cat => {
+     {props.cats.map((cat, idx) => {
      return(
-     <div>
-     <li key={props.cats.id}>{cat}</li>
-     </div>
+       <li key= { idx }>{cat}</li>
       )
      }
       )}

@@ -9,7 +9,7 @@ class CatIndex extends Component {
    }
  };
 
-  render(breeds){
+  render(){
        return (
      <div>
       <CatList cats={this.state.breeds} />
