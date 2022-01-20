@@ -1,13 +1,14 @@
 import React from 'react';
 import {Container} from 'reactstrap';
-import TodoFilter from './TodoFilter'
-import TodoList from './TodoList'
+// import TodoFilter from './TodoFilter'
+// import TodoList from './TodoList'
 
 const ToDo = () => {
   return(
     <Container className="App">
      <br />
        <h1 className="App-intro">
+         NOT WORKING
      In this challenge your goal is to create a to do list: 
        </h1>
        <hr />
@@ -26,8 +27,8 @@ const ToDo = () => {
          </li>
        </ul>
        <hr />
-       <TodoFilter />
-       <TodoList />
+       {/* <TodoFilter />
+       <TodoList /> */}
      </Container>
   );
 };

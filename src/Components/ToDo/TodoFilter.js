@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import TodoList from './TodoList';
+// import TodoList from './TodoList';
 
 class TodoFilter extends Component {
     constructor(props) {

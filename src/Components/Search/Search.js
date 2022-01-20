@@ -7,6 +7,7 @@ const Search = () => {
      <Container className="App">
      <br />
        <h1 className="App-intro">
+         NOT WORKING
      In this challenge your goal is to use the existing code to create the following: 
        </h1>
        <hr />
